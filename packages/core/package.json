@@ -1,6 +1,6 @@
 {
   "name": "@cards-ts/core",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Framework for creating and running new card games.",
   "author": "John Meyer",
   "homepage": "https://github.com/johnameyer/can-i-have-that/tree/master/packages/core#readme",
