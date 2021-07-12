@@ -14,7 +14,7 @@ export abstract class AbstractStateTransformer<GameParams, State, HandlerData, G
      * @param names the names of the players
      * @param initialState the initial state of the state machine 
      */
-    initialState({gameParams, names, initialState}: {gameParams: GameParams; names: string[]; initialState: State}): GameState {
+    initialState({gameParams, names, initialState}: {gameParams: GameParams; names: string[]; initialState?: State}): GameState {
         return {
             gameParams,
             numPlayers: names.length,
